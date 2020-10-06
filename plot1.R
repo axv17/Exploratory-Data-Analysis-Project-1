@@ -1,6 +1,6 @@
 library("data.table")
 
-setwd("~/Desktop/Exploratory-Data-Analysis-Project-1/project/data")
+setwd("~/Desktop/Exploratory_Data_Analysis_Project_1/project/data")
 
 #Reads in data from file then subsets data for specified dates
 powerDT <- data.table::fread(input = "household_power_consumption.txt"
